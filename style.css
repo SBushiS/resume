@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.header {
+  background: rgba(101, 144, 144, 0.246);
+  color: rgb(29, 24, 24);
+  padding: 20px;
+margin-top: 15px;  
+margin: 10px;
+border: 0.5px solid rgba(98, 98, 98, 0.171);
+border-radius: 10px;
+}
+.header img {
+  border-radius: 10px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.header a {
+  color: rgb(51, 47, 47);
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #652665;
+}
+
+/* a:visited {
+  color: red;
+} */
+
+a:active {
+  color: aqua;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  background-color: rgb(240, 236, 232);
+  color: #652665;
+}
+
+
+
+.card_01 {
+ background-color: #943994be;
+color: aliceblue;
+border: 0.5px solid rgba(98, 98, 98, 0.171);
+border-radius: 10px;
+padding: 25px;
+  margin: 10px;
+}
+
+.card_012 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.card_012 li {
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+
+.card_02 {
+  background-color: rgba(0, 255, 255, 0.335);
+  color: rgb(43, 46, 46);
+  border: 0.5px solid rgba(98, 98, 98, 0.171);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px;
+}
+
+.table {
+width: 100%;
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.table td:hover {
+background: #652665;
+color: aliceblue;
+}
+
+/* .table tr:nth-child(2) {
+  background: #4f51e0;
+
+} */
+
+
+footer {
+  border: 0.5px solid rgba(53, 51, 51, 0.171);
+  border-radius: 10px;
+  background: rgba(127, 255, 212, 0.555);
+  margin-bottom: 15px;
+  padding: 25px;
+  margin: 10px;
+}
+footer h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.btn {
+  background: #652665;
+  padding: 15px 30px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.form_group  label{
+  display: block; 
+  font-size: 14px;
+  color: rgb(32, 31, 30);
+}
+
+
+.form_row .form_group {
+/* display: inline-block; */
+width: 50%;
+/* width: calc(50%-20px); */
+}
+
+.form_row .form_group:last-child {
+  margin-right: 0;
+}
+
+
+
+.form_row {
+  margin-bottom: 10px;
+display: flex;
+}
+
+.form_group input, form_group textarea {
+width: 100%;
+box-sizing: border-box;
+border:  none;
+background: transparent;
+border-bottom: 1px solid #ccc;
+color: #000;
+padding: 15px 0 10 px;
+outline: none;
+font-family: inherit;
+}
+

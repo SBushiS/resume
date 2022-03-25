@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -7,84 +7,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="portfolio, html, css">
   <meta name="description" content="Мини-портфолио с мини-описанием">
+  <link rel="stylesheet" href="style.css">
   <title>Обо мне</title>
 </head>
 
-<head>
-  <img src="photo.jpg" width="150" alt="Photo">
-  <h1>Это Суслов</h1>
-  <p>Это моя <strong><em>четвертая</em></strong> попытка влиться в IT структуру <br><br>...победная?</p>
-</head>
 
 <body>
-  <div>
-    <h2>Список социальных сетей:</h2>
-    <a href="google.com" target="_blank">Instagram</a>
-    |
-    <a href="google.com" target="_blank">Telegram</a>
-    |
-    <a href="google.com" target="_blank">Youtube</a>
+  <div class="container">
+    <div class="header">
+      <img src="photo.jpg" width="150" alt="Photo">
+      <h1>Это Суслов</h1>
+      <p>Это моя <strong><em>четвертая</em></strong> попытка влиться в IT структуру <br><br>...победная?</p>
+
+      <h2>Список социальных сетей:</h2>
+      <a href="google.com" target="_blank">Instagram</a>
+      |
+      <a href="google.com" target="_blank">Telegram</a>
+      |
+      <a href="google.com" target="_blank">Youtube</a>
+    </div>
+    <div class="card_01">
+      <h2>Мои хобби</h2>
+      <ol class="card_012">
+        <li>no</li>
+        <li>no</li>
+        <li>no</li>
+        <li>no</li>
+      </ol>
+    </div>
+    <div class="card_02">
+      <h2>Опыт работы</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pako</td>
+            <td>Работник</td>
+            <td>2015</td>
+          </tr>
+          <tr>
+            <td>Pako</td>
+            <td>Кладовщик</td>
+            <td>2016</td>
+          </tr>
+          <tr>
+            <td>Pako</td>
+            <td>Зам. нач. склада</td>
+            <td>2018</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+    <footer>
+
+      <form action="/" class="form">
+        <h2>Связаться со мной </h2>
+        <div class="form_row">
+          <div class="form_group">
+            <label for="name"> Имя</label>
+            <input type="name" id="name" placeholder="Введите Имя">
+          </div>
+          <div class="form_group">
+            <label for="email"> Email</label>
+            <input type="email" id="email" placeholder="Введите Email">
+          </div>
+        </div>
+        <div class="form_group">
+          <label for="text"> Ваше сообщение</label>
+          <br>
+          <textarea id="text" cols="30" rows="5" placeholder="Введите сообщение"></textarea>
+        </div>
+
+        <button class="btn" type="submit">Отправить форму</button>
+
+      </form>
+    </footer>
   </div>
-  <div>
-    <h2>Мои хобби</h2>
-    <ol>
-      <li>no</li>
-      <li>no</li>
-      <li>no</li>
-      <li>no</li>
-    </ol>
-    <h2>Опыт работы</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Название</th>
-          <th>Должность</th>
-          <th>Год</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Pako</td>
-          <td>Работник</td>
-          <td>2015</td>
-        </tr>
-        <tr>
-          <td>Pako</td>
-          <td>Кладовщик</td>
-          <td>2016</td>
-        </tr>
-        <tr>
-          <td>Pako</td>
-          <td>Зам. нач. склада</td>
-          <td>2018</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-
-
-  <footer>
-    <h2>Связаться со мной </h2>
-    <form>
-      <div>
-        <label for="name"> Имя</label>
-        <input type="name" id="name" placeholder="Введите Имя">
-      </div>
-      <div>
-        <label for="email"> Email</label>
-        <input type="email" id="email" placeholder="Введите Email">
-      </div>
-      <div>
-        <label for="text"> Ваше сообщение</label>
-        <br>
-        <textarea id="text" cols="30" rows="5" placeholder="Введите сообщение"></textarea>
-      </div>
-      <button type="submit">Отправить форму</button>
-
-    </form>
-  </footer>
-
 </body>
+
 
 </html>
